@@ -1,0 +1,14 @@
+kernel=kernel
+ramdisk=ramdisk
+dt=dt.img
+page_size=2048
+kernel_size=12758658
+ramdisk_size=15984283
+dtb_size=2
+base_addr=0x40078000
+kernel_offset=0x00008000
+ramdisk_offset=0x11088000
+tags_offset=0x07c08000
+cmd_line='bootopt=64S3,32N2,64N2 buildvariant=user'
+board="CY-CI7N-H332-B"
+format=gzip
